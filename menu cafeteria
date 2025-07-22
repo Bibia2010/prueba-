@@ -1,0 +1,93 @@
+.menu {
+      margin-top: 20px;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    footer {
+      background-color: #6b4f4f;
+      color: blue;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Librería & Cafetería "Lecturas & Aromas"</h1>
+    <p>Un lugar donde los libros y el café se encuentran.</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#libros">Libros Destacados</a>
+    <a href="#cafeteria">Cafetería</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Inicio</h2>
+    <p>Bienvenidos a nuestro espacio literario y gastronómico. Aquí puedes disfrutar de una cuidada selección de libros mientras saboreas nuestro café artesanal y deliciosas opciones de pastelería. Lecturas & Aromas es tu rincón ideal para desconectar y dejarte llevar por las palabras.</p>
+  </section>
+
+  <section id="libros">
+    <h2>Libros Destacados</h2>
+    <div class="libros">
+      <div class="libro">
+        <img src="https://via.placeholder.com/150x200?text=Libro+1" alt="Libro 1">
+        <h3>El viajero del tiempo</h3>
+        <p>Autor: Bianca benedetti</p>
+      </div>
+      <div class="libro">
+        <img src="https://via.placeholder.com/150x200?text=Libro+2" alt="Libro 2">
+        <h3>La casa de papel viejo</h3>
+        <p>Autor: B.B.M</p>
+      </div>
+      <div class="libro">
+        <img src="https://via.placeholder.com/150x200?text=Libro+3" alt="Libro 3">
+        <h3>Poesía del alma</h3>
+    
+      </div>
+    </div>
+  </section>
+
+  <section id="cafeteria">
+    <h2>Cafetería</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <span>Café Espresso</span>
+        <span>$2.00</span>
+      </div>
+      <div class="menu-item">
+        <span>Café Latte</span>
+        <span>$2.50</span>
+      </div>
+      <div class="menu-item">
+        <span>Capuchino</span>
+        <span>$2.80</span>
+      </div>
+      <div class="menu-item">
+        <span>Té de hierbas</span>
+        <span>$1.80</span>
+      </div>
+      <div class="menu-item">
+        <span>Brownie de chocolate</span>
+        <span>$2.50</span>
+      </div>
+      <div class="menu-item">
+        <span>Pastel de zanahoria</span>
+        <span>$3.00</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lecturas & Aromas | Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
